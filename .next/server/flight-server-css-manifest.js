@@ -1,0 +1,10 @@
+self.__RSC_CSS_MANIFEST={
+  "__entry_css_mods__": {
+    "/Users/bryan/lighthouse/portfolio-project/app/page": [
+      "/Users/bryan/lighthouse/portfolio-project/styles/globals.css"
+    ]
+  },
+  "/Users/bryan/lighthouse/portfolio-project/app/layout.tsx": [
+    "/Users/bryan/lighthouse/portfolio-project/styles/globals.css"
+  ]
+}

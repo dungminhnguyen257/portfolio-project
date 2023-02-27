@@ -1,5 +1,39 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
+    "(app-client)/./components/Navbar.tsx": {
+      "": {
+        "id": "(sc_client)/./components/Navbar.tsx",
+        "name": "",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "*": {
+        "id": "(sc_client)/./components/Navbar.tsx",
+        "name": "*",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "Navbar": {
+        "id": "(sc_client)/./components/Navbar.tsx",
+        "name": "Navbar",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      },
+      "default": {
+        "id": "(sc_client)/./components/Navbar.tsx",
+        "name": "default",
+        "chunks": [
+          "app/layout:app/layout"
+        ],
+        "async": false
+      }
+    },
     "(app-client)/./node_modules/next/dist/client/components/app-router.js": {
       "": {
         "id": "(sc_client)/./node_modules/next/dist/client/components/app-router.js",
@@ -110,6 +144,40 @@ self.__RSC_MANIFEST={
     "/Users/bryan/lighthouse/portfolio-project/app/layout": [
       "static/css/_app-client_styles_globals_css.css"
     ]
+  },
+  "/Users/bryan/lighthouse/portfolio-project/components/Navbar.tsx": {
+    "": {
+      "id": "(app-client)/./components/Navbar.tsx",
+      "name": "",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "*": {
+      "id": "(app-client)/./components/Navbar.tsx",
+      "name": "*",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "Navbar": {
+      "id": "(app-client)/./components/Navbar.tsx",
+      "name": "Navbar",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    },
+    "default": {
+      "id": "(app-client)/./components/Navbar.tsx",
+      "name": "default",
+      "chunks": [
+        "app/layout:app/layout"
+      ],
+      "async": false
+    }
   },
   "/Users/bryan/lighthouse/portfolio-project/node_modules/next/dist/client/components/app-router.js": {
     "": {

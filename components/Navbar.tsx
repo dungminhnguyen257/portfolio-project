@@ -37,7 +37,11 @@ export const Navbar = () => {
             <h2>Jose</h2>
           </div>
         </div>
-        <div></div>
+        <div>
+          {NAV_ITEMS.map((item, idx)=>{
+            return <a key={idx}>{item.label}</a>
+          })}
+        </div>
       </div> 
     </header>
 

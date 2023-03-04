@@ -17,14 +17,6 @@ self.__RSC_MANIFEST={
         ],
         "async": false
       },
-      "Navbar": {
-        "id": "(sc_client)/./components/Navbar.tsx",
-        "name": "Navbar",
-        "chunks": [
-          "app/layout:app/layout"
-        ],
-        "async": false
-      },
       "default": {
         "id": "(sc_client)/./components/Navbar.tsx",
         "name": "default",
@@ -157,14 +149,6 @@ self.__RSC_MANIFEST={
     "*": {
       "id": "(app-client)/./components/Navbar.tsx",
       "name": "*",
-      "chunks": [
-        "app/layout:app/layout"
-      ],
-      "async": false
-    },
-    "Navbar": {
-      "id": "(app-client)/./components/Navbar.tsx",
-      "name": "Navbar",
       "chunks": [
         "app/layout:app/layout"
       ],

@@ -1,8 +1,8 @@
 self.__RSC_MANIFEST={
   "__ssr_module_mapping__": {
-    "(app-client)/./components/Navbar.tsx": {
+    "(app-client)/./app/layout.tsx": {
       "": {
-        "id": "(sc_client)/./components/Navbar.tsx",
+        "id": "(sc_client)/./app/layout.tsx",
         "name": "",
         "chunks": [
           "app/layout:app/layout"
@@ -10,7 +10,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "*": {
-        "id": "(sc_client)/./components/Navbar.tsx",
+        "id": "(sc_client)/./app/layout.tsx",
         "name": "*",
         "chunks": [
           "app/layout:app/layout"
@@ -18,7 +18,7 @@ self.__RSC_MANIFEST={
         "async": false
       },
       "default": {
-        "id": "(sc_client)/./components/Navbar.tsx",
+        "id": "(sc_client)/./app/layout.tsx",
         "name": "default",
         "chunks": [
           "app/layout:app/layout"
@@ -134,12 +134,21 @@ self.__RSC_MANIFEST={
   "__edge_ssr_module_mapping__": {},
   "__entry_css_files__": {
     "/Users/bryan/lighthouse/portfolio-project/app/layout": [
-      "static/css/_app-client_styles_globals_css.css"
+      "static/css/app/layout.css"
     ]
   },
-  "/Users/bryan/lighthouse/portfolio-project/components/Navbar.tsx": {
+  "/Users/bryan/lighthouse/portfolio-project/styles/globals.css": {
+    "default": {
+      "id": "null",
+      "name": "default",
+      "chunks": [
+        "static/css/app/layout.css"
+      ]
+    }
+  },
+  "/Users/bryan/lighthouse/portfolio-project/app/layout.tsx": {
     "": {
-      "id": "(app-client)/./components/Navbar.tsx",
+      "id": "(app-client)/./app/layout.tsx",
       "name": "",
       "chunks": [
         "app/layout:app/layout"
@@ -147,7 +156,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "*": {
-      "id": "(app-client)/./components/Navbar.tsx",
+      "id": "(app-client)/./app/layout.tsx",
       "name": "*",
       "chunks": [
         "app/layout:app/layout"
@@ -155,7 +164,7 @@ self.__RSC_MANIFEST={
       "async": false
     },
     "default": {
-      "id": "(app-client)/./components/Navbar.tsx",
+      "id": "(app-client)/./app/layout.tsx",
       "name": "default",
       "chunks": [
         "app/layout:app/layout"
@@ -369,15 +378,6 @@ self.__RSC_MANIFEST={
         "app-client-internals:app-client-internals"
       ],
       "async": false
-    }
-  },
-  "/Users/bryan/lighthouse/portfolio-project/styles/globals.css": {
-    "default": {
-      "id": "null",
-      "name": "default",
-      "chunks": [
-        "static/css/_app-client_styles_globals_css.css"
-      ]
     }
   }
 }

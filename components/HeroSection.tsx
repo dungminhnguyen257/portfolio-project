@@ -8,7 +8,9 @@ const HeroSection = () => {
         <div>
           <Image src="/portrait .jpg" alt="" width={300} height={300} />
         </div>
-        <div></div>
+        <div>
+          <h1>Hello, this is Bryan!</h1>
+        </div>
       </div>
     </section>
   );

@@ -8,10 +8,9 @@ const HeroSection = () => {
   return (
     <section id="home">
       <div className="flex flex-col text-center items-center justify-center my-10 py-16 md:flex-row md:space-x-4">
-        <div className="rounded-full">
+        <div>
           <Image
-            // This does not change the shape to round
-            // className="rounded-full "
+            className="rounded-md"
             src="/portrait .jpg"
             alt=""
             width={300}
@@ -20,7 +19,6 @@ const HeroSection = () => {
         </div>
         <div>
           <h1 className="font-bold text-4xl mt-6">Hello, this is Bryan!</h1>
-          {/* what is this for &#39; */}
           <p className="text-lg mt-4 mb-6">
             I&#39;m a{" "}
             <span className="font-semibold text-teal-600">Web Developer </span>

@@ -1,13 +1,27 @@
 import React from "react";
 
+const skills = [
+  { skill: "HTML" },
+  { skill: "CSS" },
+  { skill: "JavaScript" },
+  { skill: "TypeScript" },
+  { skill: "Python" },
+  { skill: "React" },
+  { skill: "Next.js" },
+  { skill: "Tailwind CSS" },
+  { skill: "Git" },
+  { skill: "GitHub" },
+  { skill: "Jupyter Notebooks" },
+];
+
 export const AboutSection = () => {
   return (
     <section>
       <div>
-        <h1>About Me</h1>
+        <h1 className="text-center font-bold text-4xl">About Me</h1>
         <div>
           <div>
-            <h1>Get To Know Me</h1>
+            <h1>Get To Know Me,</h1>
 
             <p>
               Hi, my name is Bryan and I am a{" "}
@@ -31,6 +45,7 @@ export const AboutSection = () => {
           <p></p>
         </div>
         <div></div>
+        <h1>Skills</h1>
       </div>
     </section>
   );

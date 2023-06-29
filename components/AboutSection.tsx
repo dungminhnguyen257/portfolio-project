@@ -36,7 +36,7 @@ export const AboutSection = () => {
             </p>
             <br />
             <p>
-              I graduated from Lighthouse Labs web devloping bootcamp in 2019.
+              I graduated from Lighthouse Labs web devloping bootcamp in 2022.
             </p>
             <br />
             <p>

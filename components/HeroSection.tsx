@@ -8,13 +8,24 @@ const HeroSection = () => {
   return (
     <section id="home">
       <div className="flex flex-col text-center items-center justify-center animate-fadeIn animation-delay-2 my-10 py-16 sm:py-32 md:py-52 md:flex-row md:space-x-4 md:text-left">
+        {/* <video
+          autoPlay
+          loop
+          muted
+          className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+        >
+          <source
+            src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4"
+            type="video/mp4"
+          />
+        </video> */}
         <div className="md:mt-2 md:w-1/2">
           <Image
-            className="rounded-md"
+            className="rounded-full"
             src="/portrait .jpg"
             alt=""
-            width={300}
-            height={300}
+            width={325}
+            height={325}
           />
         </div>
         <div className="md:mt-2 md:w-3/5">

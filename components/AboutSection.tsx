@@ -28,14 +28,16 @@ export const AboutSection = () => {
             <h1 className="text-center text-2xl font-bold mb-6 md:text-left">
               Get To Know Me,
             </h1>
-            <div className="md:mt-2 md:w-1/2">
-              <Image
-                className="rounded-full"
-                src="/portrait .jpg"
-                alt=""
-                width={325}
-                height={325}
-              />
+            <div className="flex justify-center md:justify-start md:mt-2 md:w-1/2">
+              <div className=" pb-10">
+                <Image
+                  className="rounded-full"
+                  src="/portrait .jpg"
+                  alt=""
+                  width={325}
+                  height={325}
+                />
+              </div>
             </div>
             <p>
               Hi, my name is Bryan and I am a{" "}

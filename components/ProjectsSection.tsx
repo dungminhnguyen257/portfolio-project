@@ -1,7 +1,23 @@
+"use client";
 import React from "react";
 import Image from "next/image";
 import Link from "next/link";
 import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs";
+import { motion, Variants } from "framer-motion";
+
+const projectVariants: Variants = {
+  hide: {
+    opacity: 0,
+    x: -500,
+  },
+  show: {
+    opacity: 1,
+    x: 0,
+    transition: {
+      duration: 2,
+    },
+  },
+};
 
 const projects = [
   {
@@ -33,7 +49,7 @@ const projects = [
 
 const ProjectsSection = () => {
   return (
-    <section id="projects">
+    <motion.section id="projects">
       <h1 className="my-10 text-center font-bold text-4xl">
         Projects
         <hr className="w-6 h-1 mx-auto my-4 bg-teal-500 border-0 rounded"></hr>
@@ -43,7 +59,7 @@ const ProjectsSection = () => {
         {projects.map((project, idx) => {
           return (
             <div key={idx}>
-              <div className="flex flex-col  animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
+              <div className="flex flex-col animate-slideUpCubiBezier animation-delay-2 md:flex-row md:space-x-12">
                 <div className=" md:w-1/2">
                   <Link href={project.github}>
                     <Image
@@ -80,7 +96,7 @@ const ProjectsSection = () => {
           );
         })}
       </div>
-    </section>
+    </motion.section>
   );
 };
 

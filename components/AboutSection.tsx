@@ -32,7 +32,7 @@ export const AboutSection = () => {
               <div className=" pb-10">
                 <Image
                   className="rounded-full"
-                  src="/portrait .jpg"
+                  src="/portrait.jpg"
                   alt=""
                   width={325}
                   height={325}

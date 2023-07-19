@@ -19,15 +19,6 @@ const HeroSection = () => {
             type="video/mp4"
           />
         </video>
-        <div className="md:mt-2 md:w-1/2">
-          <Image
-            className="rounded-full"
-            src="/portrait .jpg"
-            alt=""
-            width={325}
-            height={325}
-          />
-        </div>
         <div className="md:mt-2 md:w-3/5 z-10 text-neutral-100">
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
             Hello, this is Bryan!

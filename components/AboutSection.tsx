@@ -40,20 +40,24 @@ export const AboutSection = () => {
               </div>
             </div>
             <p>
-              Hi, my name is Bryan and I am a{" "}
-              <span className="font-bold">{"highly ambitious"}</span>,
+              Hi, my name is Bryan and I am an{" "}
+              <span className="font-bold">{"ambitious"}</span>,
               <span className="font-bold">{" self-motivated"}</span>, and
               <span className="font-bold">{" driven"}</span> web developer based
               in Toronto.
             </p>
             <br />
             <p>
-              I graduated from Lighthouse Labs web devloping bootcamp in 2022.
+              I graduated from Lighthouse Labs web developing bootcamp in 2022.
             </p>
             <br />
             <p>
-              I have a wide range of hobbies and passions that keep me busy.
-              Reading, Workingout, traveling to name a few of them.
+              Outside of my professional pursuits, I engage in a diverse range
+              of hobbies and passions that enrich my life. I have a strong
+              affinity for fitness, dedicating time to exercise regularly.
+              Additionally, my love for knowledge leads me to immerse myself in
+              reading books and documentations on history and philosophy,
+              fostering a continuous quest for learning and personal growth.
             </p>
             <br />
             <p></p>

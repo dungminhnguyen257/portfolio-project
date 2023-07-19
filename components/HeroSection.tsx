@@ -1,6 +1,5 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import { Link } from "react-scroll/modules";
 import { HiArrowDown } from "react-icons/hi";
 
@@ -12,13 +11,27 @@ const HeroSection = () => {
           autoPlay
           loop
           muted
-          className="absolute z-10 w-auto min-w-full min-h-full max-w-none"
+          className="absolute z-10 w-auto min-w-full max-w-none"
         >
           <source
             src="https://assets.mixkit.co/videos/preview/mixkit-set-of-plateaus-seen-from-the-heights-in-a-sunset-26070-large.mp4"
             type="video/mp4"
           />
         </video>
+        <div className="md:mt-2 md:w-1/2 z-10">
+          <a href="https://www.linkedin.com/in/minh-dung-nguyen-bryan-902493126/">
+            <video
+              autoPlay
+              loop
+              muted
+              className="rounded-full"
+              width={330}
+              height={330}
+            >
+              <source src="animation.mp4" type="video/mp4" />
+            </video>
+          </a>
+        </div>
         <div className="md:mt-2 md:w-3/5 z-10 text-neutral-100">
           <h1 className="text-4xl font-bold mt-6 md:mt-0 md:text-7xl">
             Hello, this is Bryan!
@@ -41,7 +54,7 @@ const HeroSection = () => {
           </Link>
         </div>
       </div>
-      <div className="flex flex-row items-center text-center justify-center ">
+      <div className="flex flex-row items-center text-center justify-center z-10 sticky ">
         <Link
           to="about"
           activeClass="active"
@@ -50,7 +63,7 @@ const HeroSection = () => {
           offset={-100}
           duration={500}
         >
-          <HiArrowDown size={35} className="animate-bounce" />
+          <HiArrowDown size={35} className="animate-bounce z-20" />
         </Link>
       </div>
     </section>

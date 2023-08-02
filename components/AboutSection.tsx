@@ -6,13 +6,16 @@ const skills = [
   { skill: "CSS" },
   { skill: "JavaScript" },
   { skill: "TypeScript" },
-  { skill: "Python" },
+  { skill: "Ruby" },
   { skill: "React" },
   { skill: "Next.js" },
   { skill: "Tailwind CSS" },
+  { skill: "StoryBook" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+  { skill: "StoryBook" },
+  { skill: "Jest" },
+  { skill: "Cypress" },
 ];
 
 export const AboutSection = () => {
